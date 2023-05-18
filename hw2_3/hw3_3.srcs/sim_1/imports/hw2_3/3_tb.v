@@ -13,15 +13,16 @@ module hw2_3_tb();
     
     initial begin
         areset = 1;
+        #20 areset = 0;
+        #20;
         ground = 1;
-        #20 areset = 0;       
         turn_left = 0;
         turn_right = 0;
-        #20;
+        #40;
         turn_right = 1;
         #20;
         turn_right = 0;
-        #30;
+        #60;
         turn_left = 1;
         turn_right = 0;
         #50;
@@ -30,12 +31,12 @@ module hw2_3_tb();
         turn_right = 1;
         #20
         turn_left = 1;
-        #10;
+        
+        #50;
         turn_right = 0;
         #50;
-        ground = 0;
-        #30;
-        
+        ground = 1;
+        #100;
         $finish;
     end
 endmodule
