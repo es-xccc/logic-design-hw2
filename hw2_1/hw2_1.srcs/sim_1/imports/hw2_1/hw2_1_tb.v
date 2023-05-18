@@ -11,6 +11,7 @@ hw2_1 test (
         .Qout(Qout)
     );
     initial begin
+        R <= 3'b000;
         clk = 0;
         L = 1;
         #5 R <= 3'b000;
