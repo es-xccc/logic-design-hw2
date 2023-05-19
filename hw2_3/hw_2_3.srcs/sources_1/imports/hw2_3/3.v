@@ -8,7 +8,9 @@ module hw2_3(
     output reg walk_right,
     output reg aaah );
     reg [1:0]state,next;
+    
+always @(posedge clk, posedge areset)begin
 
-// write your codes
+end
 
 endmodule
