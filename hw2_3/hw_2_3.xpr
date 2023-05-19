@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="C:/Github_Repo/Logic_Design_HW2/hw2_3/hw3_3.xpr">
+<Project Version="7" Minor="61" Path="C:/Github_Repo/Logic_Design_HW2/hw2_3/hw_2_3.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="79449ded7bb8486589b8a5fd73d3b09a"/>
+    <Option Name="Id" Val="f709049ac16f4f9ea74be5524a46924a"/>
     <Option Name="Part" Val="xc7k70tfbv676-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
