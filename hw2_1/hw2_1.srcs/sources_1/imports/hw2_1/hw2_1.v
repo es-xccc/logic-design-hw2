@@ -15,11 +15,10 @@ endmodule
 module sub(r,q,l,clock,Q);
 input r,q,l,clock;
 output reg Q;
-reg ini=1;
+reg ini=0;
 
-always@(ini)begin
-Q<=r;
-ini<=0;
+initial begin
+Q<=0;
 end
 
 always@(posedge clock)begin
