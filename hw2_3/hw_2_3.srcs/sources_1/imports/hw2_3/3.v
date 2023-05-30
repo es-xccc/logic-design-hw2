@@ -9,11 +9,11 @@ module hw2_3(
     output reg aaah );
     reg [1:0]state,next;
 
-always @(areset, turn_left, turn_right)begin
+always @(turn_left, turn_right)begin
      
 end
 
-always @(posedge clk)begin
+always @(posedge clk, posedge areset)begin
     
 end
 endmodule
