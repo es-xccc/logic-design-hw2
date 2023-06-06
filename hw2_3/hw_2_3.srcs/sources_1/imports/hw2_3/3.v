@@ -15,8 +15,8 @@ always @(posedge clk, posedge areset)begin
         walk_left<=1;
         walk_right<=0;
         aaah=0;
-        temp[1]<=walk_left;
-        temp[0]<=walk_right;
+        temp[1]<=1;
+        temp[0]<=0;
     end
     else if(ground==0)begin
         walk_left<=0;
@@ -34,15 +34,15 @@ always @(posedge clk, posedge areset)begin
         walk_left<=1;
         walk_right<=0;
         aaah<=0;
-        temp[1]<=walk_left;
-        temp[0]<=walk_right;
+        temp[1]<=1;
+        temp[0]<=0;
     end
     else if(turn_right==1)begin
         walk_left<=0;
         walk_right<=1;
         aaah<=0;
-        temp[1]<=walk_left;
-        temp[0]<=walk_right;
+        temp[1]<=0;
+        temp[0]<=1;
     end
     else begin
         walk_left<=temp[1];
