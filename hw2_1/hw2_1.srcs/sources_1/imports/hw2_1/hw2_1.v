@@ -15,7 +15,6 @@ endmodule
 module sub(r,q,l,clock,Q);
 input r,q,l,clock;
 output reg Q;
-reg ini=0;
 
 initial begin
 Q<=0;
