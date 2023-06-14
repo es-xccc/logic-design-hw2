@@ -21,7 +21,7 @@ always @(posedge clk, posedge areset)begin
     else if(ground==0)begin
         walk_left<=0;
         walk_right<=0;
-        aaah=1;
+        aaah<=1;
     end
     else if(turn_left==1 && turn_right==1)begin
         temp[1]<=walk_right;
